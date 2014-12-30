@@ -11,15 +11,56 @@ body{
 	background: url('../img/bg.jpg') no-repeat center center fixed;
 }
 
+div#wrapper{
+	margin-top: 50px;
+	height: 100%;
+}
+
+div#wrapper{
+	height: 100%;
+}
+
 header#main-header{
 	background-color: #FFFFFF;
 	color: #FD0000;
 	padding: 5px 10px;
 	top: 0;
+	height: 40px;
+	width: 100%;
+	position: fixed;
 }
 
-header#main-header h1{
+header#main-header a{
+	text-decoration: none;
+	color: inherit;
 	font-size: 2em;
+	font-weight: 700;
+	line-height: 40px;
+}
+
+div#search{
+	width: 100%;
+	text-align: center;
+	margin: 100px 0;
+}
+
+div#search input{
+	padding: 5px 10px;
+	border: 2px solid #449CFA;
+	border-radius: 10px;
+	width: 300px;
+	font-size: 1.6em;
+	color: #449CFA;
+	background-color: transparent;
+	background: url('../img/loop.svg') no-repeat;
+	background-position: right;
+	-webkit-transition: 0.7s ease;
+	-o-transition: 0.7s ease;
+	transition: 0.7s ease;
+}
+
+div#search input:focus{
+	background-color: rgba(200,200,200,0.4);
 }
 
 div#output{
@@ -35,21 +76,4 @@ div#output div.movie{
 
 div#output div.movie img{
 	height: 100%;
-}
-
-div#search form input{
-	padding: 5px 10px;
-	border: 2px solid #449CFA;
-	border-radius: 10px;
-	width: 300px;
-	font-size: 1.4em;
-	font-weight: 700;
-	color: #449CFA;
-	background-color: transparent;
-}
-
-div#search form input:after{
-	content: url('../img/loop.svg');
-	display: block;
-	position: absolute;
 }

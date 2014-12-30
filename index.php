@@ -7,9 +7,7 @@
 	<?php include 'inc/header.php'; ?>
 	<div id="content">
 		<div id="search">
-			<form action="" method="POST">
-				<input type="text" name="term">
-			</form>
+			<input type="text" name="term">
 		</div>
 
 			<div id="output">

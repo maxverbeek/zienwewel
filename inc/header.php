@@ -1,3 +1,3 @@
 <header id="main-header">
-	<h1><?php echo $name; ?></h1>
+	<a href="index.php"><?php echo $name; ?></a>
 </header>
