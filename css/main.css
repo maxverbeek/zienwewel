@@ -1,0 +1,55 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	border: 0;
+	font-size: 100%;
+}
+
+body{
+	font-family: 'Arial', 'Helvetica', Sans-Serif;
+	background: url('../img/bg.jpg') no-repeat center center fixed;
+}
+
+header#main-header{
+	background-color: #FFFFFF;
+	color: #FD0000;
+	padding: 5px 10px;
+	top: 0;
+}
+
+header#main-header h1{
+	font-size: 2em;
+}
+
+div#output{
+	bottom: 0;
+	padding: 0px 20px;
+}
+
+div#output div.movie{
+	height: 200px;
+	display: inline-block;
+	margin: 10px;
+}
+
+div#output div.movie img{
+	height: 100%;
+}
+
+div#search form input{
+	padding: 5px 10px;
+	border: 2px solid #449CFA;
+	border-radius: 10px;
+	width: 300px;
+	font-size: 1.4em;
+	font-weight: 700;
+	color: #449CFA;
+	background-color: transparent;
+}
+
+div#search form input:after{
+	content: url('../img/loop.svg');
+	display: block;
+	position: absolute;
+}
